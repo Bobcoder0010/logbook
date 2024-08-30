@@ -1,8 +1,9 @@
-import react from "react";
+
+import react from "react-dom"
 const App = ()=>{
-    const [count, setCount ] = rect.useState(0);
+    const [IsOpen, setOpen ] = rect.useState(false);
     const handleClick = () =>{
-        setCount(count +1);
+        setOpen(!IsOpen);
 
     }
     return(
@@ -10,7 +11,7 @@ const App = ()=>{
          <button   type = "button"onClick={handleClick}>
             Register here 
             </button>
-            {count}
+            {isOpen && <div> Register here </div>}
 
          
          </div>
