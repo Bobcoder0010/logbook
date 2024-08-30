@@ -41,7 +41,7 @@ const RegistrationForm = () => {
                         value={formData.name}
                         onChange={handleChange}
                         required
-                        style={{ width: '100%', padding: '8px', marginTop: '5px' }}
+                        // style={{ width: '100%', padding: '8px', marginTop: '5px' }}
                     />
                 </div>
                 <div style={{ marginBottom: '10px' }}>
@@ -53,7 +53,7 @@ const RegistrationForm = () => {
                         value={formData.collegeName}
                         onChange={handleChange}
                         required
-                        style={{ width: '100%', padding: '8px', marginTop: '5px' }}
+                        // style={{ width: '100%', padding: '8px', marginTop: '5px' }}
                     />
                 </div>
                 <div style={{ marginBottom: '10px' }}>
@@ -65,7 +65,7 @@ const RegistrationForm = () => {
                         value={formData.class}
                         onChange={handleChange}
                         required
-                        style={{ width: '100%', padding: '8px', marginTop: '5px' }}
+                        // style={{ width: '100%', padding: '8px', marginTop: '5px' }}
                     />
                 </div>
                 <div style={{ marginBottom: '10px' }}>
@@ -77,7 +77,7 @@ const RegistrationForm = () => {
                         value={formData.dob}
                         onChange={handleChange}
                         required
-                        style={{ width: '100%', padding: '8px', marginTop: '5px' }}
+                        // style={{ width: '100%', padding: '8px', marginTop: '5px' }}
                     />
                 </div>
                 <div style={{ marginBottom: '10px' }}>
@@ -89,7 +89,7 @@ const RegistrationForm = () => {
                         value={formData.email}
                         onChange={handleChange}
                         required
-                        style={{ width: '100%', padding: '8px', marginTop: '5px' }}
+                        // style={{ width: '100%', padding: '8px', marginTop: '5px' }}
                     />
                 </div>
                 <div style={{ marginBottom: '10px' }}>
@@ -101,7 +101,7 @@ const RegistrationForm = () => {
                         value={formData.contactNumber}
                         onChange={handleChange}
                         required
-                        style={{ width: '100%', padding: '8px', marginTop: '5px' }}
+                        // style={{ width: '100%', padding: '8px', marginTop: '5px' }}
                     />
                 </div>
                 <div style={{ marginBottom: '10px' }}>
@@ -113,7 +113,7 @@ const RegistrationForm = () => {
                         value={formData.fatherName}
                         onChange={handleChange}
                         required
-                        style={{ width: '100%', padding: '8px', marginTop: '5px' }}
+                        // style={{ width: '100%', padding: '8px', marginTop: '5px' }}
                     />
                 </div>
                 <div style={{ marginBottom: '10px' }}>
@@ -125,7 +125,7 @@ const RegistrationForm = () => {
                         value={formData.motherName}
                         onChange={handleChange}
                         required
-                        style={{ width: '100%', padding: '8px', marginTop: '5px' }}
+                        // style={{ width: '100%', padding: '8px', marginTop: '5px' }}
                     />
                 </div>
                 <div style={{ marginBottom: '10px' }}>
@@ -137,7 +137,7 @@ const RegistrationForm = () => {
                         value={formData.location}
                         onChange={handleChange}
                         required
-                        style={{ width: '100%', padding: '8px', marginTop: '5px' }}
+                        // style={{ width: '100%', padding: '8px', marginTop: '5px' }}
                     />
                 </div>
                 <div style={{ marginBottom: '10px' }}>
