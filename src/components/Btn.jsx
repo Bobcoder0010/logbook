@@ -1,21 +1,22 @@
+import ReactDOM from 'react-dom';
+import React, { useState } from 'react';
 
-import react from "react-dom"
-const App = ()=>{
-    const [IsOpen, setOpen ] = rect.useState(false);
-    const handleClick = () =>{
-        setOpen(!IsOpen);
+const App = () => {
+  const [isOpen, setOpen] = useState(false);
 
-    }
-    return(
-        <div >
-         <button   type = "button"onClick={handleClick}>
-            Register here 
-            </button>
-            {isOpen && <div> Register here </div>}
+  const handleClick = () => {
+    setOpen(!isOpen);
+  };
 
-         
-         </div>
-        
-    );
+  return (
+    <div>
+      <button type="button" onClick={handleClick}>
+        Register here
+      </button>
+      {isOpen && <div>You have been registered to our site go through the login for further process
+        </div>}
+    </div>
+  );
 };
+
 export default App;

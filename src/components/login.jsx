@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 
+
 const LoginForm = () => {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
@@ -23,7 +24,9 @@ const LoginForm = () => {
                         value={email}
                         onChange={(e) => setEmail(e.target.value)}
                         required
-                         style={{ width: '100%', padding: '8px', marginTop: '5px' }}
+                        style={{ width: '100%', padding: '8px', marginTop: '5px' }}
+                        // style={{ width: 200px; height: 100px; background-color: blue; display: block; margin: 0 auto; }}
+   
                     />
                 </div>
                 <div style={{ marginBottom: '15px' }}>
